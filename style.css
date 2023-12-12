@@ -1,0 +1,166 @@
+:root{
+--blue: #6beef5;
+--red:  #ee461c;
+
+
+
+ }
+ *{
+  margin:0; padding:0
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+
+
+ }
+ *::-webkit-scrolbar{
+ 	width: 10px;
+ 	height:5 px;
+ }
+
+
+
+  body{
+  	background-color:#faeeeb;
+  }
+
+
+ .from-container{
+ 	min-height: 100vh;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	padding: 20px;
+
+ }
+ .from-container form{
+ 	width: 500px;
+ 	border-radius: 5px;
+ 	border: 10px;
+ 	padding: 20px;
+ 	text-align: center;
+ 	background-color: #ded4d1;
+ 	border-radius: 20px; 
+ }
+
+ .from-container form h3{
+ 	font-size: 30px;
+ 	margin-bottom: 12px;
+ 	text-transform: uppercase;
+ 	color:  #471a0a;
+ }
+ .from-container form .box{
+  width: 100%;
+  border-radius: 15px;
+  padding top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+ }
+
+ .btn,
+ .delete-btn,
+ .option-btn{
+ 	display: inline-block;
+ 	padding: 10px 30px;
+ 	cursor: pointer;
+ 	font-size: 18px;
+ 	color:  #29292a;
+ 	border-radius: 15px;
+ }
+ .btn{
+ 	background-color:  #8c8bf3;
+ 	margin-top: 10px;
+ }
+ .delete-btn{
+ 	background-color:  #fe2513; 
+ 	margin: 10px;
+ 	display: inline-block;
+ 	padding: 10px 30px;
+ 	cursor: pointer;
+ 	font-size: 18px;
+ 	color:  #29292a;
+ 	border-radius: 15px;
+ }
+ .option-btn{
+ 	background-color: #45a751; 
+ 	margin:10px;
+ 	display: inline-block;
+ 	padding: 10px 30px;
+ 	cursor: pointer;
+ 	font-size: 18px;
+ 	color:  #29292a;
+ 	border-radius: 15px;
+ }
+
+ .btn:hover{
+background-color: #89f968;
+color:  #0a0a09;
+}
+ .delete-btn:hover{
+ 	background-color:  #46100c;
+ 	color:  #efe3e2;
+ 	margin
+ }
+ .option-btn:hover{
+ 	background-color: #b2f77f;
+ 	color:  #f2f7ef;
+ 	margin
+ }
+
+ .msg{
+ 	position: sticky;
+ 	top:0; left:0; right:0;
+ 	padding: 16px 10px;
+ 	background-color:  #cef35c;
+ 	color:  #f4f5f2;
+ }
+
+
+
+ .container{
+
+ 	padding: 0 20px;
+ 	margin:0 auto ;
+ 	max-width: 1200px;
+ 	padding-bottom: 70px;
+ }
+ .container .user-info{
+ 	padding: 20px;
+ 	text-align: center;
+ 	border-radius: 15px;
+ 	background-color:  #d6dad4;
+ 	margin: auto;
+ 	max-width: 500px;
+ }
+
+ .container .user-info p{
+ 	margin-bottom: 16px;
+ 	font-size: 20px;
+ 	color:  #f66a73;
+
+ }
+
+ .container .user-info p span{
+ 	color: #1a6c15; 
+ }
+ .container .user-info .flex{
+ 	display: flex;
+ 	justify-content:center;
+ 	flex-wrap: wrap;
+ }
+
+
+ .box-contain{
+ 	background-color:  #d6dad4;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 
+     justify-content:center; 
+ }
+ img{
+ 	height: 200px;
+ 	width: 150px;
+ }
